@@ -1,0 +1,171 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0.5em 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding-top: 69px;
+    font-family: helvetica;
+    margin: 0;
+}
+
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    margin-top: auto;
+    padding-right: 0.8em;
+}
+
+.teaCozy {
+    height: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.underLine {
+    text-decoration: underline;
+}
+
+a {
+    margin-left: 1em;
+}
+
+/* below is hero section */
+
+.hero {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heroImg {
+    width: 95%;
+    position: relative;
+}
+
+.textBox {
+    
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+/* Starting the tea of the month section */
+
+.teaOfTheMonthText {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.teaOfTheMonthImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center; 
+}
+
+.teaOfTheMonthImgs h4 {
+    align-items: flex-start;
+    position: relative;
+}
+
+.imgMonth {
+    width: 300px;
+    height: 200px;
+}
+
+/* locations section  */
+
+.locations {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#hideImg {
+    overflow: hidden;
+}
+
+.locations h2 {
+    z-index: 1;
+    text-align: center;
+}
+
+.locationImg {
+    height: 500px;
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+    padding: 0 5%;
+    object-fit: fill;
+    position: relative;
+}
+
+.locations img {
+    justify-content: center;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.nestedLocationBoxes {
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.nestedLocationBoxes div {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 2em;
+}
+
+/* working contact section */
+
+.contact {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* footer section */
+
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
