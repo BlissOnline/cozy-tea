@@ -13,6 +13,11 @@ body {
     margin: 0;
 }
 
+/*just makes blacks and whites a tad softer*/ 
+main {
+    opacity: 0.9;
+}
+
 .header {
     display: inline-flex;
     justify-content: space-between;
